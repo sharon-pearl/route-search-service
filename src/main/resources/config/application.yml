@@ -1,0 +1,9 @@
+spring:
+   application:
+      name: routeSearch
+migration:
+   routesFile: data/full/routes.csv
+   airportsFile: data/full/airports.csv
+   airlinesFile: data/full/airlines.csv
+route:
+   maxConnections: 4
